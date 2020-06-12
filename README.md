@@ -4,4 +4,4 @@ A module for ProcessWire CMS/CMF. Adds an option to the config of Page Reference
 
 Recommended for a better experience: https://github.com/Toutouwai/PageListSelectMultipleQuickly
 
-![isp](https://user-images.githubusercontent.com/1538852/84483150-0a677380-aced-11ea-9c63-605ef881cfd3.gif)
+![isp](https://user-images.githubusercontent.com/1538852/84484177-80b8a580-acee-11ea-8483-8c3fb3f510a7.gif)
