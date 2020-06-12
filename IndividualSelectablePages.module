@@ -40,9 +40,8 @@ class IndividualSelectablePages extends WireData implements Module {
 
 		// Get Individual Pages value if any
 		$selector_string = $if_selector_string->value;
-		$start_pos = strpos($selector_string, 'id=');
-		if($start_pos !== false && strpos($selector_string, ',') === false) {
-			$ids_str = substr($selector_string, $start_pos + 3);
+		if(strpos($selector_string, 'id=') === 0 && strpos($selector_string, ',') === false) {
+			$ids_str = substr($selector_string, 3);
 			$value = $this->wire('sanitizer')->intArray($ids_str);
 		} else {
 			$value = [];
